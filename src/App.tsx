@@ -34,16 +34,18 @@ function App() {
         <meta property="og:site_name" content="KC Service" />
         <meta property="og:locale" content="es_AR" />
         <meta property="og:locale:alternate" content="es_ES" />
-        <meta property="og:image" content="https://kc-service-weld.vercel.app/favicon-kc-service.svg" />
-        <meta property="og:image:secure_url" content="https://kc-service-weld.vercel.app/favicon-kc-service.svg" />
-        <meta property="og:image:type" content="image/svg+xml" />
+        <meta property="og:image" content="https://kc-service-weld.vercel.app/logo-kc-service.png" />
+        <meta property="og:image:secure_url" content="https://kc-service-weld.vercel.app/logo-kc-service.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="KC Service - Logo - Reparación de Electrodomésticos Profesional en Pilar, Buenos Aires" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="KC Service - Reparación de Electrodomésticos Profesional" />
         <meta name="twitter:description" content="Servicio profesional de reparación de electrodomésticos a domicilio en Pilar, Buenos Aires" />
-        <meta name="twitter:image" content="https://kc-service-weld.vercel.app/favicon-kc-service.svg" />
+        <meta name="twitter:image" content="https://kc-service-weld.vercel.app/logo-kc-service.png" />
         <meta name="twitter:image:alt" content="KC Service - Logo - Reparación de Electrodomésticos Profesional" />
         <meta name="twitter:image:alt" content="KC Service - Reparación de Electrodomésticos" />
         

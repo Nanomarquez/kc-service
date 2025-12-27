@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="kcGradientOG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#38bdf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- White background -->
+  <rect width="1200" height="630" fill="#ffffff"/>
+  
+  <!-- KC Logo centered and scaled up -->
+  <g transform="translate(600, 315)">
+    <!-- Background circle with gradient -->
+    <circle cx="0" cy="0" r="120" fill="url(#kcGradientOG)"/>
+    
+    <!-- KC Text -->
+    <text 
+      x="0" 
+      y="40" 
+      font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" 
+      font-size="140" 
+      font-weight="800" 
+      fill="#ffffff" 
+      text-anchor="middle" 
+      dominant-baseline="central"
+      letter-spacing="-6"
+    >KC</text>
+  </g>
+  
+  <!-- Service text below logo -->
+  <text 
+    x="600" 
+    y="520" 
+    font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" 
+    font-size="48" 
+    font-weight="700" 
+    fill="#0ea5e9" 
+    text-anchor="middle"
+  >Reparación de Electrodomésticos</text>
+  
+  <text 
+    x="600" 
+    y="570" 
+    font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" 
+    font-size="32" 
+    font-weight="400" 
+    fill="#64748b" 
+    text-anchor="middle"
+  >Pilar, Buenos Aires</text>
+</svg>
+
