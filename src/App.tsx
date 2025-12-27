@@ -23,17 +23,17 @@ function App() {
         <meta name="geo.placename" content="Pilar, Buenos Aires" />
         <meta name="geo.position" content="-34.4589;-58.9142" />
         <meta name="ICBM" content="-34.4589, -58.9142" />
-        <link rel="canonical" href="https://kc-service.vercel.app" />
+        <link rel="canonical" href="https://kc-service-weld.vercel.app" />
         
         {/* Open Graph */}
         <meta property="og:title" content="KC Service - Reparación de Electrodomésticos Profesional | Pilar" />
         <meta property="og:description" content="Servicio profesional de reparación de aires acondicionados, lavarropas, heladeras y lavavajillas. Trabajos a domicilio en Pilar, Barrio San Alejo. WhatsApp: 11 4161-1724" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://kc-service.vercel.app" />
+        <meta property="og:url" content="https://kc-service-weld.vercel.app" />
         <meta property="og:site_name" content="KC Service" />
         <meta property="og:locale" content="es_AR" />
         <meta property="og:locale:alternate" content="es_ES" />
-        <meta property="og:image" content="https://kc-service.vercel.app/og-image.jpg" />
+        <meta property="og:image" content="https://kc-service-weld.vercel.app/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="KC Service - Reparación de Electrodomésticos Profesional" />
@@ -42,7 +42,7 @@ function App() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="KC Service - Reparación de Electrodomésticos Profesional" />
         <meta name="twitter:description" content="Servicio profesional de reparación de electrodomésticos a domicilio en Pilar, Buenos Aires" />
-        <meta name="twitter:image" content="https://kc-service.vercel.app/og-image.jpg" />
+        <meta name="twitter:image" content="https://kc-service-weld.vercel.app/og-image.jpg" />
         <meta name="twitter:image:alt" content="KC Service - Reparación de Electrodomésticos" />
         
         {/* Structured Data - LocalBusiness */}
@@ -52,7 +52,7 @@ function App() {
             "@type": "LocalBusiness",
             "name": "KC Service",
             "description": "Servicio profesional de reparación de electrodomésticos: aires acondicionados, lavarropas, heladeras y lavavajillas",
-            "url": "https://kc-service.vercel.app",
+            "url": "https://kc-service-weld.vercel.app",
             "telephone": "+541141611724",
             "address": {
               "@type": "PostalAddress",
@@ -84,7 +84,7 @@ function App() {
               "name": "Pilar"
             },
             "priceRange": "$$",
-            "image": "https://kc-service.vercel.app/og-image.jpg"
+            "image": "https://kc-service-weld.vercel.app/og-image.jpg"
           })}
         </script>
         
@@ -94,8 +94,8 @@ function App() {
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "KC Service",
-            "url": "https://kc-service.vercel.app",
-            "logo": "https://kc-service.vercel.app/logo.png",
+            "url": "https://kc-service-weld.vercel.app",
+            "logo": "https://kc-service-weld.vercel.app/logo.png",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+541141611724",
