@@ -42,17 +42,29 @@ const Header = () => {
     >
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <motion.div
+          <motion.a
+            href="#inicio"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2 }}
             className="flex items-center space-x-2"
+            onClick={(e) => {
+              e.preventDefault()
+              scrollToSection('#inicio')
+            }}
+            aria-label="KC Service - Ir al inicio"
           >
-            <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-accent-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">KC</span>
-            </div>
-            <span className="text-xl font-bold text-gray-900">KC Service</span>
-          </motion.div>
+            <img 
+              src="/logo-kc-service.png" 
+              alt="KC Service - Logo - Reparación de Electrodomésticos Profesional en Pilar, Buenos Aires"
+              className="h-12 w-auto object-contain"
+              style={{
+                filter: 'brightness(0) saturate(100%) invert(54%) sepia(99%) saturate(2918%) hue-rotate(167deg) brightness(97%) contrast(92%)'
+              }}
+              width="120"
+              height="48"
+            />
+          </motion.a>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">

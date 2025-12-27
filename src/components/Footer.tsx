@@ -15,11 +15,14 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-accent-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">KC</span>
-              </div>
-              <span className="text-xl font-bold text-white">KC Service</span>
+            <div className="mb-4">
+              <img 
+                src="/logo-kc-service.png" 
+                alt="KC Service - Logo - Reparación de Electrodomésticos Profesional en Pilar, Buenos Aires"
+                className="h-12 w-auto object-contain"
+                width="120"
+                height="48"
+              />
             </div>
             <p className="text-gray-400 leading-relaxed">
               Servicio profesional de reparación de electrodomésticos. 

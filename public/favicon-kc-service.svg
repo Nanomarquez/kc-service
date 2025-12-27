@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="kcGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#38bdf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Shadow filter for the rectangle -->
+    <filter id="rectShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Shadow filter for text -->
+    <filter id="textShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="1.5" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.4"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Inner glow/shine effect -->
+    <linearGradient id="shineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background shadow layer -->
+  <rect width="100" height="100" rx="22" fill="#0284c7" opacity="0.3" transform="translate(0, 2)"/>
+  
+  <!-- Main background with rounded corners and shadow -->
+  <rect width="100" height="100" rx="22" fill="url(#kcGradient)" filter="url(#rectShadow)"/>
+  
+  <!-- Inner shine effect -->
+  <rect width="100" height="50" rx="22" fill="url(#shineGradient)" style="clip-path: inset(0 0 50% 0)"/>
+  
+  <!-- KC Text with shadow - Perfectly centered -->
+  <text 
+    x="50" 
+    y="62" 
+    font-family="system-ui, -apple-system, 'Segoe UI', Arial, sans-serif" 
+    font-size="56" 
+    font-weight="800" 
+    fill="#ffffff" 
+    text-anchor="middle" 
+    dominant-baseline="central"
+    letter-spacing="-2.5"
+    filter="url(#textShadow)"
+  >KC</text>
+</svg>
+
