@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kc-service-weld.vercel.app/sitemap.xml
+Sitemap: https://www.kc-service.com.ar/sitemap.xml
 
